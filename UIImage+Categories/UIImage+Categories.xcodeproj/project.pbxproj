@@ -18,7 +18,6 @@
 		999DB5C71D7BF61E00F55524 /* UIImage+SubImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 999DB5C61D7BF61E00F55524 /* UIImage+SubImage.m */; };
 		999DB5CD1D7BF68F00F55524 /* UIImage+Gif.m in Sources */ = {isa = PBXBuildFile; fileRef = 999DB5CC1D7BF68F00F55524 /* UIImage+Gif.m */; };
 		99B7D2581D7C1B00006F165F /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 99B7D2571D7C1B00006F165F /* image.png */; };
-		99B7D25E1D7C2A73006F165F /* tile.png in Resources */ = {isa = PBXBuildFile; fileRef = 99B7D25D1D7C2A73006F165F /* tile.png */; };
 		99B7D2601D7C2B67006F165F /* gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 99B7D25F1D7C2B67006F165F /* gif.gif */; };
 /* End PBXBuildFile section */
 
@@ -42,7 +41,6 @@
 		999DB5CB1D7BF68F00F55524 /* UIImage+Gif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Gif.h"; sourceTree = "<group>"; };
 		999DB5CC1D7BF68F00F55524 /* UIImage+Gif.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Gif.m"; sourceTree = "<group>"; };
 		99B7D2571D7C1B00006F165F /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
-		99B7D25D1D7C2A73006F165F /* tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile.png; sourceTree = "<group>"; };
 		99B7D25F1D7C2B67006F165F /* gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,7 +93,6 @@
 			children = (
 				99B7D2571D7C1B00006F165F /* image.png */,
 				99B7D25F1D7C2B67006F165F /* gif.gif */,
-				99B7D25D1D7C2A73006F165F /* tile.png */,
 				999DB59C1D7BF2DA00F55524 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -178,7 +175,6 @@
 				999DB5A81D7BF2DA00F55524 /* Assets.xcassets in Resources */,
 				999DB5A61D7BF2DA00F55524 /* Main.storyboard in Resources */,
 				99B7D2581D7C1B00006F165F /* image.png in Resources */,
-				99B7D25E1D7C2A73006F165F /* tile.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
