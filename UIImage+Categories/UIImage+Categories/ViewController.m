@@ -16,7 +16,9 @@
 
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
-@property (strong, nonatomic) IBOutlet UIImage *image;
+@property (weak, nonatomic) IBOutlet UIView *bottomView;
+
+@property (strong, nonatomic) UIImage *image;
 
 @end
 
@@ -44,7 +46,7 @@
     
     CGPoint pointInImage = CGPointMake(point.x * image.size.width / self.imageView.frame.size.width, point.y * image.size.height / self.imageView.frame.size.height);
     
-    self.view.backgroundColor = [image colorAtPixel:pointInImage];
+    self.bottomView.backgroundColor = [image colorAtPixel:pointInImage];
 }
 
 - (IBAction)rotateRight:(UIButton *)sender

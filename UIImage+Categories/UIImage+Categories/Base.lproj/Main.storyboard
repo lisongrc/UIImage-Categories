@@ -134,6 +134,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="bottomView" destination="Uyi-eN-bvD" id="l54-bi-FhV"/>
                         <outlet property="imageView" destination="8Ih-1H-U7n" id="ygH-Ic-yTL"/>
                     </connections>
                 </viewController>
@@ -143,6 +144,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="image.png" width="1200" height="1200"/>
+        <image name="image.png" width="300" height="300"/>
     </resources>
 </document>
